@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{5B06510D-5D94-4463-AAF5-E366BC9414A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B3AB8CC7-C39C-494C-ABEB-4B6F75956803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D3A6DAA6-11FB-4F17-99FD-7CA8E05F1CBE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Models\User.cs = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Models\User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{EE99C113-E3A8-452E-B9C2-B79207654559}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Services\IUserService.cs = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Services\IUserService.cs
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Services\UserService.cs = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.Services\UserService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{33F327BA-0FF6-49A9-957F-FB945E13EE76}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\favicon.ico = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\favicon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{418EA378-F755-4AC8-BA34-9F3F29A1313D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\css\bootstrap.min.css = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\css\bootstrap.min.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{031D45F1-6160-429D-ABAE-CF1CD9C8DFBE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\bootstrap.min.js = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\bootstrap.min.js
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\jquery-3.4.1.min.js = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\jquery-3.4.1.min.js
+		..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\popper.min.js = ..\..\..\Desktop\Exam\FinalVersion\Apps\IRunes\IRunes.App\Resources\js\popper.min.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B06510D-5D94-4463-AAF5-E366BC9414A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B06510D-5D94-4463-AAF5-E366BC9414A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B06510D-5D94-4463-AAF5-E366BC9414A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B06510D-5D94-4463-AAF5-E366BC9414A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AB8CC7-C39C-494C-ABEB-4B6F75956803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AB8CC7-C39C-494C-ABEB-4B6F75956803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AB8CC7-C39C-494C-ABEB-4B6F75956803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AB8CC7-C39C-494C-ABEB-4B6F75956803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{418EA378-F755-4AC8-BA34-9F3F29A1313D} = {33F327BA-0FF6-49A9-957F-FB945E13EE76}
+		{031D45F1-6160-429D-ABAE-CF1CD9C8DFBE} = {33F327BA-0FF6-49A9-957F-FB945E13EE76}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40479812-4412-441C-B75D-8E5D70741F2E}
+	EndGlobalSection
+EndGlobal
